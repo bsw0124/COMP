@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>practice web</title>
+    </head>
+
+    <body>
+    <h2 id="clock" class="text-4xl text-center text-indigo-500">00:00:00</h2>
+    <form class="hidden" id="login-form">
+        <input required maxlength="15"type="text" placeholder="What is your name?"/>
+        <input type="submit" value="Log In" />
+    </form>
+    <h1 class="hidden text-indigo-500 text-center" id="greeting"></h1>
+    <form id="todo-form" class="text-center text-xl">
+        <input type="text" placeholder="TO DO" required />
+    </form>
+    <ul id="todo-list" class="text-center"></ul>    
+    <div id="quote" class="text-center">    
+        <span></span><br>
+        <span></span>
+    </div>
+    <div id="weather" class="text-center translate-y-20">
+        <span></span><br>
+        <span></span>
+
+    </div>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+    </body>
+</html>
